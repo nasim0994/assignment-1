@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-area {
+    background-image: linear-gradient(180deg, #0000008a, #000000ed), url(images/donation0.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-content {
+    width: 600px;
+    margin: auto;
+    padding: 160px 0px 50px 0px;
+}
+
+.header-content h1 {
+    font-size: 53px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-content p {
+    color: #fff;
+    font-size: 17px;
+    margin: 20px 0px 38px 0px;
+    text-align: center;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    background: #ffa500;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 33%;
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+
+.donate-content {
+    width: 600px;
+    margin: auto;
+}
+
+.donate-content h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.donate-content {
+    width: 650px;
+    margin: auto;
+}
+
+.donate-content h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.donate-content>p {
+    text-align: center;
+    color: #000000b0;
+    margin-bottom: 45px;
+}
+
+.donate-amount-area {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.donate-amount {
+    width: 16%;
+    height: 80px;
+    margin-right: 20px;
+    background: #f6f1f1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.donate-amount p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 28px;
+    font-weight: bold;
+    color: #707070;
+}
+
+#active {
+    background: #f6a30045;
+    border: 2px solid #ffa500;
+}
+
+#active p {
+    color: #ffa500;
+}
+
+.donate-others-amount {
+    margin-bottom: 40px;
+}
+
+.donate-others-amount input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddddddeb;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    outline: none;
+}
+
+.donate-btn {
+    margin-left: 37%;
+}
+
+.donate-plan-content {
+    width: 970px;
+    margin: auto;
+}
+
+.donate-plan-title {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.donate-plan-title h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 13px;
+}
+
+.donate-plan-title p {
+    text-align: center;
+    color: #000000b0;
+}
+
+.donate-plan-card {
+    display: flex;
+}
+
+.card {
+    width: 31%;
+    border-radius: 5px;
+    padding: 50px 15px;
+}
+
+.card img {
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #000000b0;
+}
+
+.card-1 {
+    background: #EDF5F6;
+    margin-right: 20px;
+}
+
+.card-2 {
+    background: #FFEEEE;
+    margin-right: 20px;
+}
+
+.card-3 {
+    background: #f6a30045;
+}
+
+.update-content {
+    width: 700px;
+    margin: auto;
+}
+
+.update-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.update-title h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.update-title p {
+    color: #00000099;
+}
+
+.update-box {
+    background: #f6a30045;
+    height: 100px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.update-box .email-box {
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 220px;
+    border-radius: 6px 0px 0px 6px;
+    background: #D9D9D9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.update-box .input-btn {
+    margin-left: -4px;
+    background: #ffa500;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    padding: 11.5px 30px 11px 30px;
+}
+
+footer {
+    background: #0a0a24;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+footer h1 {
+    color: #ffa500;
+    margin-bottom: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    text-shadow: 1px 2px 4px #ffa500;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+.donate-way-title h1 {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.donate-way-list {
+    display: flex;
+    width: 970px;
+    margin: auto
+}
+
+.donate-way-card {
+    width: 33%;
+    margin-right: 20px;
+    border: 1px solid #ffa500;
+    padding: 35px 18px;
+    border-radius: 5px;
+}
+
+
+
+.donate-way-card img {
+    width: 80px;
+    padding-left: 80px;
+}
+
+.donate-way-card h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.donate-way-card p {
+    color: #171719de;
+    text-align: justify;
+}
